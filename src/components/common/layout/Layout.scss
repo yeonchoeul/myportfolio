@@ -13,12 +13,13 @@
 		color: #444;
 		margin-bottom: 10px;
 
-		span {
+	span {
 			opacity: 0;
 			transform: scale(3);
 			transition-duration: 0.5s;
 		}
 	}
+
 	.bar {
 		width: 0px;
 		height: 1px;
@@ -69,9 +70,11 @@
 				transform: scale(1);
 			}
 		}
+
 		.bar {
-			width: 50px;
+			width: 35%;
 		}
+		
 		figure {
 			width: 100%;
 		}

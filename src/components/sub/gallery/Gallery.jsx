@@ -182,7 +182,7 @@ export default function Gallery() {
                       <div className="Txt">
                         <h2>Gallery</h2>
                       </div>
-                      <h2>{data.title}</h2>
+                      <h2 className="line">{data.title}</h2>
 
                       <div className="profile">
                         <img
